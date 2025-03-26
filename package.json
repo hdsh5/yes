@@ -1,0 +1,19 @@
+{
+  "name": "minecraft-afk-bot",
+  "version": "1.0.0",
+  "description": "A simple AFK bot for Minecraft.",
+  "main": "index.js",
+  "repository": "https://github.com/ns/minecraft-afk-bot.git",
+  "author": "papa",
+  "license": "MIT",
+  "dependencies": {
+    "@xboxreplay/xboxlive-auth": "^4.1.0",
+    "axios": "^1.8.4",
+    "express": "^4.21.1",
+    "http-proxy-agent": "^7.0.2",
+    "minecraft-data": "^3.84.1",
+    "mineflayer": "^4.3.0",
+    "mineflayer-navigate": "0.0.10",
+    "mineflayer-pathfinder": "^2.1.1"
+  }
+}

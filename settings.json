@@ -1,0 +1,58 @@
+
+{
+  "bot-account": {
+    "username": "sigmaboy789",
+    "auth": "offline"
+  },
+
+  "server": {
+    "ip": "go.mineberry.org",
+    "version": "1.12.1"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "combat": {
+    "enabled": true,
+    "autoEquip": true,
+    "range": 3.5,
+    "attackSpeed": 200,
+    "criticalHits": true,
+    "priorityTargets": ["Skeleton", "Zombie","Vindicator", "Spider"],
+    "minHealth": 8,
+    "switchToShieldWhenLow": true,
+    "retreatWhenLow": true,
+    "useShield": true,
+    "keepDistance": 2.5
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "nikunj"
+    },
+
+    "anti-afk": {
+      "enabled": false,
+      "sneak": true,
+      "jump": true,
+      "rotate": true
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": false,
+      "repeat-delay": 60,
+      "messages": ["/s4"]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
+  }
+}
